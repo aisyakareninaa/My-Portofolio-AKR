@@ -13,45 +13,53 @@ const Aboutus = () => {
                     <img alt="blog" src="/assets/me1.JPG" class="flex-shrink-0 object-cover object-center w-20 h-20 rounded-full"></img>
                     <span class="flex flex-col flex-grow pl-3">
                         <h2 class="text-xs font-semibold tracking-widest text-red-800 uppercase">Aisya 
-              <span href="/" class="font-semibold text-gray-800 lg:mb-0"> Karenina </span>
+              <span class="font-semibold text-gray-800 lg:mb-0"> Karenina </span>
                         </h2>
                     </span>
                 </a>
                 <p class="mx-auto mt-2 text-base leading-relaxed text-gray-800">A Software Engineer Student, Curentlly interest in Node, React, Next, Tailwind CSS, &amp; more. Here's some of my Projects i've made</p>
             </div>
-            
+            <div class="flex justify-center w-full max-w-2xl gap-2 mx-auto mt-6">
+            <div class="mt-3 rounded-lg sm:mt-0">
+            <a href="/projects/#projects"> <button class="items-center block px-5 py-4 text-base font-bold text-center text-white transition duration-500 ease-in-out transform bg-red-800 lg:px-10 rounded-xl hover:bg-red-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-800">Projects</button> </a>
+            </div>
+            <div class="mt-3 rounded-lg sm:mt-0 sm:ml-3">
+            <a href="/projects/#experiences"> <button class="items-center block px-5 py-4 text-base font-bold text-center text-white transition duration-500 ease-in-out transform bg-red-800 lg:px-10 rounded-xl hover:bg-red-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-800">Experiences</button> </a>
+            </div>
+          </div>
         </div>
     </div>
 </section>
 <section>
+<div id='projects'>
     <div class="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-24 max-w-7xl">
     <h1 class="mb-8 text-3xl font-bold leading-none tracking-tighter text-neutral-900 md:text-7xl lg:text-5xl">Projects</h1>
         <div class="grid w-full grid-cols-1 gap-6 mx-auto lg:grid-cols-3">
             <div class="p-6">
-                <img class="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl" src="/assets/dummy.jpg" alt="blog"></img>
+                <img class="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl" src="/assets/ayomasak.jpg" alt="blog"></img>
                 <h2 class="mb-8 text-xs font-semibold tracking-widest text-red-800 uppercase">Web Design</h2>
                 <h1 class="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl">Ayo Masak - Web Food Recipe</h1>
                 <p class="mx-auto text-base font-medium leading-relaxed text-gray-500">A food recipe website that provides various easy-to-make, and healthy food recipes. This design is built with Figma</p>
                 <div class="mt-4">
-                    <a href="#" class="inline-flex items-center mt-4 font-semibold text-red-800 lg:mb-0 hover:text-neutral-600" title="read more"> Read More » </a>
+                    <a target="_blank" href="https://www.figma.com/proto/wvNtJL2NngxESzlcZvnrKM/Figma-Project-X?page-id=60%3A44&node-id=62%3A46&viewport=406%2C329%2C0.19&scaling=contain&starting-point-node-id=62%3A46" class="inline-flex items-center mt-4 font-semibold text-red-800 lg:mb-0 hover:text-neutral-600" title="About"> About » </a>
                 </div>
             </div>
             <div class="p-6">
-                <img class="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl" src="/assets/dummy.jpg" alt="blog"></img>
+                <img class="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl" src="/assets/rampal.png" alt="blog"></img>
                 <h2 class="mb-8 text-xs font-semibold tracking-widest text-red-800 uppercase">Game</h2>
                 <h1 class="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl">RAMPAL Malang - Game Roblox</h1>
                 <p class="mx-auto text-base font-medium leading-relaxed text-gray-500">Created Lapangan Rampal Malang with Roblox Studio, Availble at Roblox so can be played by Roblox Players.</p>
                 <div class="mt-4">
-                    <a href="https://www.roblox.com/games/8918573416/Rampal" class="inline-flex items-center mt-4 font-semibold text-red-800 lg:mb-0 hover:text-neutral-600" title="About"> About » </a>
+                    <a target="_blank" href="https://www.roblox.com/games/8918573416/Rampal" class="inline-flex items-center mt-4 font-semibold text-red-800 lg:mb-0 hover:text-neutral-600" title="About"> About » </a>
                 </div>
             </div>
             <div class="p-6">
-                <img class="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl" src="/assets/dummy.jpg" alt="blog"></img>
+                <img class="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl" src="/assets/blenderhome.png" alt="blog"></img>
                 <h2 class="mb-8 text-xs font-semibold tracking-widest text-red-800 uppercase">3D Animation</h2>
                 <h1 class="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl">3D Home Design - Blender &amp; Unity</h1>
                 <p class="mx-auto text-base font-medium leading-relaxed text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus elit quis interdum placerat.</p>
                 <div class="mt-4">
-                    <a href="#" class="inline-flex items-center mt-4 font-semibold text-red-800 lg:mb-0 hover:text-neutral-600" title="read more"> Read More » </a>
+                    <a target="_blank" href="#" class="inline-flex items-center mt-4 font-semibold text-red-800 lg:mb-0 hover:text-neutral-600" title="read more"> Read More » </a>
                 </div>
             </div>
         </div>
@@ -62,7 +70,7 @@ const Aboutus = () => {
                 <h1 class="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl">Aneka Jaya - Toko Bangunan</h1>
                 <p class="mx-auto text-base font-medium leading-relaxed text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus elit quis interdum placerat.</p>
                 <div class="mt-4">
-                    <a href="#" class="inline-flex items-center mt-4 font-semibold text-red-800 lg:mb-0 hover:text-neutral-600" title="read more"> Read More » </a>
+                    <a target="_blank" href="https://github.com/aisyakareninaa/TOKO_ONLINE_AnekaJaya" class="inline-flex items-center mt-4 font-semibold text-red-800 lg:mb-0 hover:text-neutral-600" title="read more"> Read More » </a>
                 </div>
             </div>
             <div class="p-6">
@@ -71,7 +79,7 @@ const Aboutus = () => {
                 <h1 class="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl">App Laundry - UKL XI-1</h1>
                 <p class="mx-auto text-base font-medium leading-relaxed text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus elit quis interdum placerat.</p>
                 <div class="mt-4">
-                    <a href="#" class="inline-flex items-center mt-4 font-semibold text-red-800 lg:mb-0 hover:text-neutral-600" title="read more"> Read More » </a>
+                    <a target="_blank" href="https://github.com/aisyakareninaa/UKL_WEB_LAUNDRY" class="inline-flex items-center mt-4 font-semibold text-red-800 lg:mb-0 hover:text-neutral-600" title="read more"> Read More » </a>
                 </div>
             </div>
             <div class="p-6">
@@ -80,7 +88,7 @@ const Aboutus = () => {
                 <h1 class="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl">Car 3D Animation Rendering</h1>
                 <p class="mx-auto text-base font-medium leading-relaxed text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus elit quis interdum placerat.</p>
                 <div class="mt-4">
-                    <a href="#" class="inline-flex items-center mt-4 font-semibold text-red-800 lg:mb-0 hover:text-neutral-600" title="read more"> Read More » </a>
+                    <a target="_blank" href="#" class="inline-flex items-center mt-4 font-semibold text-red-800 lg:mb-0 hover:text-neutral-600" title="read more"> Read More » </a>
                 </div>
             </div>
         </div>
@@ -91,7 +99,7 @@ const Aboutus = () => {
                 <h1 class="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl">Eunoia Web Profile + Calculator</h1>
                 <p class="mx-auto text-base font-medium leading-relaxed text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus elit quis interdum placerat.</p>
                 <div class="mt-4">
-                    <a href="#" class="inline-flex items-center mt-4 font-semibold text-red-800 lg:mb-0 hover:text-neutral-600" title="read more"> Read More » </a>
+                    <a target="_blank" href="https://github.com/aisyakareninaa/tubes-chapter1-fe-kelompok1" class="inline-flex items-center mt-4 font-semibold text-red-800 lg:mb-0 hover:text-neutral-600" title="read more"> Read More » </a>
                 </div>
             </div>
             <div class="p-6">
@@ -100,23 +108,24 @@ const Aboutus = () => {
                 <h1 class="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl">Eunoia Baby Shop - Card dummy API</h1>
                 <p class="mx-auto text-base font-medium leading-relaxed text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus elit quis interdum placerat.</p>
                 <div class="mt-4">
-                    <a href="#" class="inline-flex items-center mt-4 font-semibold text-red-800 lg:mb-0 hover:text-neutral-600" title="read more"> Read More » </a>
+                    <a target="_blank" href="https://github.com/aisyakareninaa/TugasPraktikum_Chapter2_FE_Kelompok1#" class="inline-flex items-center mt-4 font-semibold text-red-800 lg:mb-0 hover:text-neutral-600" title="read more"> Read More » </a>
                 </div>
             </div>
             <div class="p-6">
-                <img class="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl" src="/assets/dummy.jpg" alt="blog"></img>
+                <img class="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl" src="/assets/2.jpg" alt="blog"></img>
                 <h2 class="mb-8 text-xs font-semibold tracking-widest text-red-800 uppercase">Programming</h2>
                 <h1 class="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl">HERE - For your comfort Web</h1>
                 <p class="mx-auto text-base font-medium leading-relaxed text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus elit quis interdum placerat.</p>
                 <div class="mt-4">
-                    <a href="#" class="inline-flex items-center mt-4 font-semibold text-red-800 lg:mb-0 hover:text-neutral-600" title="read more"> Read More » </a>
+                    <a target="_blank" href="https://github.com/aisyakareninaa/HERE_NextJs-Website" class="inline-flex items-center mt-4 font-semibold text-red-800 lg:mb-0 hover:text-neutral-600" title="read more"> Read More » </a>
                 </div>
             </div>
+        </div>
         </div>
     </div>
 </section>
 
-        <section class="#experiences">
+<div id='experiences'>
   <h1 class="mb-8 text-3xl font-bold leading-none tracking-tighter text-neutral-900 md:text-7xl lg:text-5xl">Experiences</h1>
   <div class="flex flex-wrap mx-auto md:flex-nowrap p-12">
     <a href="">
@@ -147,7 +156,7 @@ const Aboutus = () => {
       </div>
     </a>
 
-    <a href="">
+    <a target="_blank" href="https://linktr.ee/aisyakareninaa">
       <div class="flex w-full">
         <div class="relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform bg-white shadow-2xl rounded-xl md:w-80 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
           <img class="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36" src="/assets/dummy.jpg" alt="blog"></img>
@@ -175,7 +184,7 @@ const Aboutus = () => {
     </a>
 
   </div>
-</section>
+    </div>
     </div>
             
   )
