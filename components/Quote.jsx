@@ -11,7 +11,7 @@ const Quote = () => {
     <div className='max-w-[740px] mx-auto text-center py-24'>
         <p className='text-2xl font-bold'>Here's some of My Experiences and Projects</p>
         <p className='pb-4'>AKR</p>
-        <div className='grid grid-cols-3 md-grid-cols-3 lg-gird-cols-6 gap-2 p-4'>
+        <div className='grid grid-cols-3 md-grid-cols-3 gap-5 p-4'>
             <Link href='/projects/#projects'><QuoteImg socialImg={QuoImg1} /></Link>
             <Link href='/projects/#experiences'><QuoteImg socialImg={QuoImg2} /></Link>
             <Link href='/projects/#projects'><QuoteImg socialImg={QuoImg3} /></Link>

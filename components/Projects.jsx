@@ -17,7 +17,7 @@ const Aboutus = () => {
                         </h2>
                     </span>
                 </a>
-                <p class="mx-auto mt-2 text-base leading-relaxed text-gray-800">A Software Engineer Student, Curentlly interest in Node, React, Next, Tailwind CSS, &amp; more. Here's some of my Projects i've made</p>
+                <p class="mx-auto mt-2 text-base leading-relaxed text-gray-800">A Software Engineer Student, Currently interest in Node, React, Next, Tailwind CSS, &amp; more. Here's some of my Projects i've made</p>
             </div>
             <div class="flex justify-center w-full max-w-2xl gap-2 mx-auto mt-6">
             <div class="mt-3 rounded-lg sm:mt-0">
@@ -65,7 +65,7 @@ const Aboutus = () => {
         </div>
         <div class="grid w-full grid-cols-1 gap-6 mx-auto lg:grid-cols-3">
             <div class="p-6">
-                <img class="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl" src="/assets/dummy.jpg" alt="blog"></img>
+                <img class="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl" src="/assets/4.jpg" alt="blog"></img>
                 <h2 class="mb-8 text-xs font-semibold tracking-widest text-red-800 uppercase">Programming</h2>
                 <h1 class="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl">Aneka Jaya - Toko Bangunan</h1>
                 <p class="mx-auto text-base font-medium leading-relaxed text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus elit quis interdum placerat.</p>
@@ -74,7 +74,7 @@ const Aboutus = () => {
                 </div>
             </div>
             <div class="p-6">
-                <img class="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl" src="/assets/dummy.jpg" alt="blog"></img>
+                <img class="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl" src="/assets/3.jpg" alt="blog"></img>
                 <h2 class="mb-8 text-xs font-semibold tracking-widest text-red-800 uppercase">Programming</h2>
                 <h1 class="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl">App Laundry - UKL XI-1</h1>
                 <p class="mx-auto text-base font-medium leading-relaxed text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus elit quis interdum placerat.</p>
@@ -83,7 +83,7 @@ const Aboutus = () => {
                 </div>
             </div>
             <div class="p-6">
-                <img class="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl" src="/assets/dummy.jpg" alt="blog"></img>
+                <img class="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl" src="/assets/mbl.png" alt="blog"></img>
                 <h2 class="mb-8 text-xs font-semibold tracking-widest text-red-800 uppercase">3D Animation</h2>
                 <h1 class="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl">Car 3D Animation Rendering</h1>
                 <p class="mx-auto text-base font-medium leading-relaxed text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus elit quis interdum placerat.</p>
@@ -131,7 +131,7 @@ const Aboutus = () => {
     <a href="">
       <div class="flex w-full">
         <div class="relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform bg-white shadow-2xl rounded-xl md:w-80 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
-          <img class="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36" src="/assets/dummy.jpg" alt="blog"></img>
+          <img class="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36" src="/assets/e2.jpg" alt="blog"></img>
           <div class="px-6 py-8">
             <h4 class="mt-4 text-2xl font-semibold text-neutral-600">
               <span class="">Multimedia Journalist</span>
@@ -145,7 +145,7 @@ const Aboutus = () => {
     <a>
       <div class="flex w-full">
         <div class="relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform bg-white shadow-2xl rounded-xl md:w-80 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
-          <img class="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36" src="/assets/dummy.jpg" alt="blog"></img>
+          <img class="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36" src="/assets/e3.png" alt="blog"></img>
           <div class="px-6 py-8">
             <h4 class="mt-4 text-2xl font-semibold text-neutral-600">
               <span class="">Treasure of Adiwiyata</span>
@@ -159,7 +159,7 @@ const Aboutus = () => {
     <a target="_blank" href="https://linktr.ee/aisyakareninaa">
       <div class="flex w-full">
         <div class="relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform bg-white shadow-2xl rounded-xl md:w-80 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
-          <img class="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36" src="/assets/dummy.jpg" alt="blog"></img>
+          <img class="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36" src="/assets/e1.jpg" alt="blog"></img>
           <div class="px-6 py-8">
             <h4 class="mt-4 text-2xl font-semibold text-neutral-600">
               <span class="">Content Creator</span>
@@ -172,7 +172,7 @@ const Aboutus = () => {
     <a href="">
       <div class="flex w-full">
         <div class="relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform bg-white shadow-2xl rounded-xl md:w-80 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
-          <img class="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36" src="/assets/dummy.jpg" alt="blog"></img>
+          <img class="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36" src="/assets/e4.jpg" alt="blog"></img>
           <div class="px-6 py-8">
             <h4 class="mt-4 text-2xl font-semibold text-neutral-600">
               <span class="">Junior FrontEnd Dev</span>
